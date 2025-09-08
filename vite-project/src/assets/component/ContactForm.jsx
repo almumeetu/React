@@ -1,5 +1,5 @@
 
-const Footer = () => {
+const ContactForm = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default ContactForm;
