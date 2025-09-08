@@ -4,7 +4,7 @@ const ContactForm = () => {
         <div>
             <form action="#">
                 <input type="email" placeholder="Enter Your mail" />
-                <button>Submit</button>
+                <button className="submitBtn" onClick={() => alert("Hello User! Your Mail Was Submited")}>Submit</button>
             </form>
         </div>
     );
