@@ -1,0 +1,5 @@
+{
+  "name": "AI Professional Headshot Generator",
+  "description": "Upload a casual photo and use AI to transform it into a polished, professional headshot suitable for LinkedIn and other business profiles.",
+  "requestFramePermissions": []
+}

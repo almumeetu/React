@@ -15,6 +15,13 @@ const conditionalRendering = () => {
             />
 
             {/* Conditional Rendering */}
+            {gpa && Number(gpa) >= 4 ? (
+                <h3>You are eligible to Milestone School ✅</h3>
+            ) : gpa ? (
+                <h3>You are not eligible to Milestone School ❌</h3>
+            ) : (
+                <h3>Please enter your gpa 🙂</h3>
+            )}
         </div>
     );
 };
